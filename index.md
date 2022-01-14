@@ -78,7 +78,11 @@ command names|commands names|commands names
  1. You can write a command in quotes at the end of an ssh command to directly run it on the remote server. 
 
             $ ssh cs15lwi22@ieng6.ucsd.edu "ls"
+            
+            
 <img src = "B9915899-796D-4F27-8205-C02B01AA5E6C_1_105_c.jpeg" width = "500" height = "300">
+
+
  2. You can use semicolons to run multiple commands on the same line in most terminals.
 
             $ cp WhereAmI.java OtherMain java; javac OtherMain.java; java WhereAmI
