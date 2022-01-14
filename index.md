@@ -27,7 +27,7 @@
 
 command names|commands names|commands names
 :-:|:-:|:-:
-***cd***|***cd ~***|***pwd***
+***cd***|***cat***|***pwd***
 ***ls -a***|***ls -lat***|***ls -l***
 >The result of these commands is as follows:
 
