@@ -60,7 +60,7 @@ command names|commands names|commands names
 ***Step 5: Setting an SSH key***
 >To avoid typing your password every time you log into the server, you can use an SSH key to solve this. Type the following command:
 
-   $ssh-keygen
+                                           $ssh-keygen
 
 <img src = "F73FA9A4-14E1-4057-B656-B93C11784374.jpeg" width = "500" height = "300">
 
