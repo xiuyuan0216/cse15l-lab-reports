@@ -4,7 +4,7 @@
 [website][1]. After downloading VS Code, you will see this page below. 
 
 [1]: https://code.visualstudio.com/
-![image](F81FD3A7-4AAA-4016-90B2-53F5AA67CD2F_1_105_c.jpeg)
+<img src = "F81FD3A7-4AAA-4016-90B2-53F5AA67CD2F_1_105_c.jpeg" width = "500" height = "300">
 >Then you need to download Extension Pack in VS Code to dive into the wonderland of Java. 
 
 ------
