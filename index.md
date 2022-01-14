@@ -26,10 +26,13 @@
 ***Step 3: Trying some commands***
 >Some commands you can try are listed below
 
+
 command names|commands names|commands names
 :-:|:-:|:-:
 ***cd***|***cat***|***pwd***
 ***ls -a***|***ls -lat***|***ls -l***
+
+
 >The result of these commands is as follows:
 
 <img src = "B22401A6-AAC3-4BAA-BAF8-B0367D1D54CB.jpeg" width = "500" height = "300">
