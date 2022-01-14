@@ -82,4 +82,5 @@ command names|commands names|commands names
  2. You can use semicolons to run multiple commands on the same line in most terminals.
 
             $ cp WhereAmI.java OtherMain java; javac OtherMain.java; java WhereAmI
+            
  3. You can use the up-arrow on your keyboard to recall the last command that was run
