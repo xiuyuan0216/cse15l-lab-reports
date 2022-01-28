@@ -1,5 +1,5 @@
 # Tutorials for CSE 15L Week 1 Lab
-***Step 1: Installing Visual Studio Code***
+# Step 1: Installing Visual Studio Code
 >It is the very start of your extraoridinary journey in CSE 15L. Just go download VS Code in this 
 [website][1]. After downloading VS Code, you will see this page below. 
 
@@ -8,7 +8,7 @@
 >Then you need to download Extension Pack in VS Code to dive into the wonderland of Java. 
 
 ------
-***Step 2: Remotely Connecting***
+# Step 2: Remotely Connecting
 >The second step is to connect to your account. If you are using Windows operating system, you have an extra thing to do: install
 [OpenSSH][2]. Use your course-specific account: cs15lwi22zz@ieng6.ucsd.edu, zz is your account name in UCSD. 
 
@@ -23,14 +23,15 @@
 <img src = "8B19653C-DEFB-4594-830D-DEF600CAE9F5.jpeg" width = "500" height = "300">
 
 ------------
-***Step 3: Trying some commands***
+# Step 3: Trying some commands
 >Some commands you can try are listed below
 
-
-command names|commands names|commands names
-:-:|:-:|:-:
-***cd***|***cat***|***pwd***
-***ls -a***|***ls -lat***|***ls -l***
+         cd
+         cat
+         pwd
+         ls -a
+         ls -lat
+         ls -l
 
 
 >The result of these commands is as follows:
@@ -38,7 +39,7 @@ command names|commands names|commands names
 <img src = "B22401A6-AAC3-4BAA-BAF8-B0367D1D54CB.jpeg" width = "500" height = "300">
 
 --------
-***Step 4: Moving files with scp command***
+# Step 4: Moving files with scp command
 >scp is a command that copies a file from your computer to remote server. Create a file on your computer called WhereAmI.java and put the following code in it:
 
 
@@ -57,7 +58,7 @@ command names|commands names|commands names
 >Then you can try to run the program on server by using javac and java command. 
 
 ----------
-***Step 5: Setting an SSH key***
+# Step 5: Setting an SSH key
 >To avoid typing your password every time you log into the server, you can use an SSH key to solve this. Type the following command:
 
                                            $ssh-keygen
@@ -75,7 +76,7 @@ command names|commands names|commands names
     $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
     # You use your username and the path you saw in the command above
 
-***Step 6: Making remote running even more pleasant***
+# Step 6: Making remote running even more pleasant
 
  1. You can write a command in quotes at the end of an ssh command to directly run it on the remote server. 
 
