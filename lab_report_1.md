@@ -25,14 +25,14 @@
 ------------
 # Step 3: Trying some commands
 >Some commands you can try are listed below
-
+```
          cd
          cat
          pwd
          ls -a
          ls -lat
          ls -l
-
+```
 
 >The result of these commands is as follows:
 
@@ -43,14 +43,14 @@
 >scp is a command that copies a file from your computer to remote server. Create a file on your computer called WhereAmI.java and put the following code in it:
 
 
-
+```
     class WhereAmI { 
         public static void main(String[] args) { System.out.println(System.getProperty(“os.name”)); System.out.println(System.getProperty(“user.name”)); System.out.println(System.getProperty(“user.home”)); System.out.println(System.getProperty(“user.dir”)); } }
-
+```
 >Then use the following command to copy the file into remote server:
-
+```
     $scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
-
+```
 >If you successfully finish it, you will see the following picture
 
 <img src = "7516A757-ED28-4E8E-9651-CACCF9977A81.jpeg" width = "500" height = "300"/>
@@ -60,13 +60,13 @@
 ----------
 # Step 5: Setting an SSH key
 >To avoid typing your password every time you log into the server, you can use an SSH key to solve this. Type the following command:
-
-                                           $ssh-keygen
-
+```
+   $ssh-keygen
+```
 <img src = "F73FA9A4-14E1-4057-B656-B93C11784374.jpeg" width = "500" height = "300">
 
 >This created two new files on your system; the private key (in a file id_rsa) and the public key (in a file id_rsa.pub), stored in the .ssh directory on your computer.Now we need to copy the public (not the private) key to the .ssh directory of your user account on the server.
-
+```
     $ ssh cs15lwi22zz@ieng6.ucsd.edu
     <Enter Password>
     # now on server
@@ -75,20 +75,20 @@
     # back on client
     $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
     # You use your username and the path you saw in the command above
-
+```
 # Step 6: Making remote running even more pleasant
 
  1. You can write a command in quotes at the end of an ssh command to directly run it on the remote server. 
-
-            $ ssh cs15lwi22@ieng6.ucsd.edu "ls"
-            
+```
+   $ ssh cs15lwi22@ieng6.ucsd.edu "ls"
+```        
             
 <img src = "B9915899-796D-4F27-8205-C02B01AA5E6C_1_105_c.jpeg" width = "500" height = "300">
 
 
  2. You can use semicolons to run multiple commands on the same line in most terminals.
-
-            $ cp WhereAmI.java OtherMain java; javac OtherMain.java; java WhereAmI
-            
+```
+    $ cp WhereAmI.java OtherMain java; javac OtherMain.java; java WhereAmI
+```      
  3. You can use the up-arrow on your keyboard to recall the last command that was run
  >By performing the remote running technique, we can successfully save time from the perspective of keystrokes. If we only run on our own local terminals, we have to run multiple times for separate steps. However, with the previous optimized steps, we can run multiple commands at once, so this is much easier.
