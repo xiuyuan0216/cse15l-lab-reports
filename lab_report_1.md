@@ -15,9 +15,9 @@
 [2]: https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse
  
  >To remotely connect in VS Code, type the following command to your terminal: 
- 
-            $ssh cs15lwi22zz@ieng6.ucsd.edu
-            
+ ```
+ $ssh cs15lwi22zz@ieng6.ucsd.edu
+ ```
 >Choose yes if you are asked yes or no. If nothing goes wrong, you will come to the page below.
 
 <img src = "8B19653C-DEFB-4594-830D-DEF600CAE9F5.jpeg" width = "500" height = "300">
