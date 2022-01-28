@@ -16,7 +16,7 @@
  
  >To remotely connect in VS Code, type the following command to your terminal: 
  
-            $ssh cs15lwi22zz@ieng6.ucsd.edu
+            ``` $ssh cs15lwi22zz@ieng6.ucsd.edu
             
 >Choose yes if you are asked yes or no. If nothing goes wrong, you will come to the page below.
 
